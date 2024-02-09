@@ -10,22 +10,24 @@ programa
 		
           preco =300
           
-		escreva ("escreva seu nome")
+		escreva ("escreva seu nome: \n")
 		leia(nome)
 
-		escreva ("escreva seu endereco")
+		escreva ("escreva seu endereco: \n")
 		leia(endereco)
 
-		escreva("formadepagamento")
+		escreva("forma de pagamento: \n")
 		leia (formadepagamento)
 
-		escreva ("escreva sua idade")
+		escreva ("escreva sua idade: \n")
 		leia(idade)
 		
-		escreva ("escreva o seu telefone")
+		escreva ("escreva o seu telefone: \n")
 		leia(telefone)
 
-		escreva ("o ", produto, "preco R$", preco)
+		escreva ("A ", produto, " custa R$", preco)
+
+		escreva ("\n\nobrigado pela compra ",nome," você adiquiriu uma ",produto," por R$",preco) 
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 498; 
+ * @POSICAO-CURSOR = 529; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
