@@ -17,17 +17,14 @@ programa
 
 	limpa()
 	
-		se (idade<12) {
-		escreva ("\nVocê é um Fraldinha\n")
+		se (idade<18) {
+		escreva ("Você é de menor")
 	}
-	se (idade>=12 e idade<=18)
+	senao
 	{
-		escreva("\nVocê já pode tomar toddynho\n")
+		escreva("Você é de maior")
 		}
-		se (idade>=18)
-		{
-			escreva ("\nVocê é de Maior\n")
-			}
+		
 	}
 }
 	
@@ -38,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 283; 
+ * @POSICAO-CURSOR = 291; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
