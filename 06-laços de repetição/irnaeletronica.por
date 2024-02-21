@@ -1,22 +1,21 @@
 programa
 {
 	
-	funcao inicio()
-	{
-		inteiro candidatoA = 0
-		inteiro candidatoB = 0
-		inteiro brancos = 0
-		inteiro nulos = 0
-		inteiro total = 0
-		real porcentCandA
-		real porcentCandB
-		real porcentBrancos
-		real porcent1
-		2Nulos
-		inteiro voto
+	         funcao inicio()
+	         {
+		    inteiro candidatoA = 0
+		    inteiro candidatoB = 0
+		    inteiro brancos = 0
+		    inteiro nulos = 0
+		    inteiro total = 0
+		    real porcentCandA
+		    real porcentCandB
+		    real porcentBrancos
+	         real porcentNulos
+		    inteiro voto
 
-		faca
-		{
+		     faca
+		      {
 			limpa()
 			escreva("Escolha o seu candidato ou tecle zero para encerrar\n\n")
 
@@ -31,15 +30,15 @@ programa
 		     limpa()
 		     escolha (voto)
 		     {
-		         caso 0:
+		     caso 0:
 		               escreva("Votação encerrada!\n")
-		         pare
-		         caso 1:
+		     pare
+		     caso 1:
 		               candidatoA++
-		         pare
-		         caso 3:
+		     pare
+		     caso 3:
 		               brancos++
-		         pare
+		     pare
 		         caso contrario:
 		               nulos++
 		          }
@@ -50,18 +49,18 @@ programa
 		     //Se houver votos, calcula a porcentagem de votos de cada candidato
 		     se(total > 0)
 		     {
-		     	porcentCandA = (candidatoA * 100.0) / total
-		     	porcentCandB = (candidatoB * 100.0) / total
-		     	porcentBrancos = (brancos * 100.0) / total
-		     	porcentNulos = (nulos * 100.0) / total
+		     porcentCandA = (candidatoA * 100.0) / total
+		     porcentCandB = (candidatoB * 100.0) / total
+		     porcentBrancos = (brancos * 100.0) / total
+		     porcentNulos = (nulos * 100.0) / total
 
-		     	escreva("\n")
+		     escreva("\n")
 
-		     	escreva("Total de votos: ", total, "\n\n")
-		     	escreva("Candidato A: ", candidatoA, "voto(s). ", porcentCandA, " % do total\n")
-		     	escreva("Candidato A: ", candidatoB, "voto(s). ", porcentCandB, " % do total\n")
-		     	escreva("Brancos: ", brancos, "voto(s). ", porcentBrancos, " % do total\n")
-		     	escreva("Nulos: ", nulos, "voto(s). ", porcentNulos, " % do total\n")
+		     escreva("Total de votos: ", total, "\n\n")
+		     escreva("Candidato A: ", candidatoA, "voto(s). ", porcentCandA, " % do total\n")
+		     escreva("Candidato A: ", candidatoB, "voto(s). ", porcentCandB, " % do total\n")
+		     escreva("Brancos: ", brancos, "voto(s). ", porcentBrancos, " % do total\n")
+		     escreva("Nulos: ", nulos, "voto(s). ", porcentNulos, " % do total\n")
 		     	}
 	
 	}
@@ -73,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 226; 
+ * @POSICAO-CURSOR = 49; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
